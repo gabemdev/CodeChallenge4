@@ -199,6 +199,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="addButton" destination="xBT-ut-Jf7" id="9dl-gh-c4w"/>
                         <outlet property="breedTextField" destination="Slm-2W-S66" id="wNl-eE-4c5"/>
                         <outlet property="colorTextField" destination="nWd-Qa-Gqa" id="16R-yC-g4m"/>
                         <outlet property="nameTextField" destination="0hX-8l-gmo" id="tE2-Mo-e14"/>

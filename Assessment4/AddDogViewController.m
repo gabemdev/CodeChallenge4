@@ -15,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *nameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *breedTextField;
 @property (weak, nonatomic) IBOutlet UITextField *colorTextField;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *addButton;
 
 @end
 
@@ -33,6 +34,7 @@
 
     //If editing instead of adding
     if (self.dog) {
+        self.addButton.title = @"Save Edit";
         self.nameTextField.text = self.dog.name;
         self.breedTextField.text = self.dog.breed;
         self.colorTextField.text = self.dog.color;

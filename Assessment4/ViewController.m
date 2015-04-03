@@ -112,6 +112,7 @@
     NSData *barColorData = [NSKeyedArchiver archivedDataWithRootObject:newColor];
     [[NSUserDefaults standardUserDefaults] setObject:barColorData forKey:@"defaultColor"];
 
+    [self.myTableView reloadData];
 }
 
 //METHOD FOR PRESENTING USER'S COLOR PREFERENCE
