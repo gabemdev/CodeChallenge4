@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+@class Person;
 @interface DogsViewController : UIViewController
+
+@property Person *person;
 
 @end
